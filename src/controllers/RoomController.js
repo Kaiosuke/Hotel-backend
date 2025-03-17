@@ -1,3 +1,4 @@
+import env from "../config/envConfig.js";
 import {
   handleError404,
   handleError404WithData,
@@ -6,24 +7,18 @@ import {
   handleSuccess200,
   handleSuccess201,
 } from "../helpers/handleStatusCode.js";
-import env from "../config/envConfig.js";
-import {
-  getAllData,
-  getAllDataDeleted,
-  getData,
-  getDataById,
-} from "../services/getService.js";
+import Cart from "../models/Cart.js";
 import Room from "../models/Room.js";
 import RoomType from "../models/RoomType.js";
-import Cart from "../models/Cart.js";
-import { createData } from "../services/postService.js";
+import { deleteData, forceDeleteData } from "../services/deleteService.js";
+import { getData, getDataById } from "../services/getService.js";
 import {
   findByIdAndPullData,
   findByIdAndPushData,
   findByIdAndUpdateData,
   restoreData,
 } from "../services/patchService.js";
-import { deleteData, forceDeleteData } from "../services/deleteService.js";
+import { createData } from "../services/postService.js";
 
 const RoomController = {
   getAll: async (req, res) => {

@@ -27,7 +27,11 @@ import {
   restoreData,
 } from "../services/patchService.js";
 import { createData } from "../services/postService.js";
-import data from "../data.json" assert { type: "json" };
+import { readFile } from "fs/promises";
+
+const data = JSON.parse(
+  await readFile(new URL("../data.json", import.meta.url), "utf-8")
+);
 
 const RoomTypeController = {
   getAll: async (req, res) => {
