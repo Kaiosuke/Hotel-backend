@@ -1,0 +1,409 @@
+{
+  "mainPages": [
+    {
+      "id": 1,
+      "title": "The Hotel",
+      "image": "https://q-xx.bstatic.com/xdata/images/hotel/max500/559584698.jpg?k=fbf75d6c59888fe8d14eb99064b0af4ceea2258632178345751d8e2fa6e843c7&o=",
+      "href": "/the-hotel"
+    },
+    {
+      "id": 2,
+      "title": "Rooms",
+      "image": "https://hydehotels.com/wp-content/uploads/sites/4/2024/05/hydebodrum-bed-beigeheadboard-creamseat.jpg",
+      "href": "/rooms"
+    },
+    {
+      "id": 3,
+      "title": "Restaurants",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQJ0EqHI6h5QgFTXGG_1i2FADG1xulRbVtecA&s",
+      "href": "/restaurants"
+    },
+    {
+      "id": 4,
+      "title": "Spa",
+      "image": "https://thegrandhotram.com/wp-content/uploads/2021/08/S43695-min.jpg",
+      "href": "#!"
+    },
+    {
+      "id": 5,
+      "title": "Events",
+      "image": "https://blog.topcv.vn/wp-content/uploads/2021/07/sk2uEvents_Page_Header_2903ed9c-40c1-4f6c-9a69-70bb8415295b.jpg",
+      "href": "#!"
+    },
+    {
+      "id": 6,
+      "title": "Kids Club",
+      "image": "https://sp-ao.shortpixel.ai/client/to_webp,q_glossy,ret_img/https://neworienthoteldanang.com/wp-content/uploads/2023/09/kid1-1.jpg",
+      "href": "#!"
+    },
+    {
+      "id": 7,
+      "title": "Gallery",
+      "image": "https://artgallery.yale.edu/sites/default/files/styles/hero_small/public/2023-01/ag-doc-2281-0036-pub.jpg?h=147a4df9&itok=uclO7OrF",
+      "href": "#!"
+    }
+  ],
+  "subPages": [
+    {
+      "id": 1,
+      "title": "Blog"
+    },
+    {
+      "id": 2,
+      "title": "Offers"
+    },
+    {
+      "id": 3,
+      "title": "Gift Cards"
+    },
+    {
+      "id": 4,
+      "title": "Weddings"
+    },
+    {
+      "id": 5,
+      "title": "Meeting Rooms"
+    },
+    {
+      "id": 6,
+      "title": "Conference Facilities"
+    },
+    {
+      "id": 7,
+      "title": "Contact"
+    },
+    {
+      "id": 8,
+      "title": "Work with us"
+    }
+  ],
+  "viewList": [
+    {
+      "id": "view1",
+      "title": "Mountain",
+      "image": "https://aguasdeibiza.com/wp-content/uploads/2019/09/Aguasdeibiza-2019-070-HABITACIONES-ALTA-edit.jpg",
+      "description": "An Ibiza style room with a natural set of design details to add up to a king size bed and a large private terrace. Contemporary elements like copper and limestone, or pebble stone floor in its large bathroom, a bathtub and a separate shower make this space is a magnificent amenity in itself."
+    },
+    {
+      "id": "view2",
+      "title": "Pool",
+      "image": "https://aguasdeibiza.com/wp-content/uploads/2023/09/AGUAS-DE-IBIZA-2023-080-baja-1200x900.jpg",
+      "description": "When the idea of a perfect marine retreat includes unbeatable sea sights, this is the perfect choice. A big and bright room with views of Formentera Island and its pristine waters, combined with a beautiful modern furniture."
+    },
+    {
+      "id": "view3",
+      "title": "Sea",
+      "image": "https://aguasdeibiza.com/wp-content/uploads/2023/07/C9SV-2023-004-baja-1200x675.jpg",
+      "description": "Floor-to-ceiling windows with an uninterrupted view of the Mediterranean and Santa Eulalia bay. A living room of your own, a big bed and bathroom including a vanity top with a double sink, bathtub and independent shower. The most memorable experience for the eyes and the mind."
+    }
+  ],
+  "luxury": [
+    {
+      "id": 1,
+      "title": "Ibiza",
+      "image": "https://aguasdeibiza.com/wp-content/uploads/2019/03/aguasdeibiza-esvedra02-1200x800.jpg",
+      "description": "Island vacation full with natural light. White. Green. Turquoise. Sun and water together with a perfect design and textures. Airy spacious rooms in a 5 star hotel in Santa Eulalia for the perfect Ibiza mood."
+    },
+    {
+      "id": 2,
+      "title": "EcoLuxury",
+      "image": "https://aguasdeibiza.com/wp-content/uploads/2019/09/Aguasdeibiza-2019-135-PISCINA-ALTA-EDIT-1200x1038.jpg",
+      "description": "Here comes natural as the new conceptual luxury at a 5 star hotel in Ibiza. The fantastical Aguas de Ibiza has been recognized and honoured as the luxury boutique hotel in Ibiza with the most innovative and ambitious concept of what it means to be environmentally friendly."
+    }
+  ],
+  "packages": [
+    {
+      "id": 1,
+      "title": "Long Stay Promotion",
+      "discount": "Upt to 10% off",
+
+      "image": "https://aguasdeibiza.com/wp-content/uploads/2019/09/Aguasdeibiza-2019-152-TERRAZAS-ALTA-Velo-768x1024.jpg",
+      "description": [
+        "We’d like you to stay longer with us!",
+        "Get up to 10% discount for stays of 7 nights or more."
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Flexible Rates",
+      "discount": "No cancellation fee",
+      "image": "https://aguasdeibiza.com/wp-content/uploads/2020/03/AGUASDEIBIZA-2019-127-baja-1024x768.jpg",
+      "description": [
+        "We are flexible, you are free",
+        "Make your reservation now without, any cancellation fee (up tp 72 hours previous arrival) and make payment upon check-in.",
+        "*Offer valid for stays from April 8 to October 31."
+      ]
+    },
+    {
+      "id": 3,
+      "discount": "10% Off",
+      "title": "Loyalty Deal",
+      "image": "https://aguasdeibiza.com/wp-content/uploads/2019/09/Aguasdeibiza-2019-142-TERRAZAS-MEDIA-768x1024.jpg",
+      "description": [
+        "Have you already stayed with us? We’d like you back!",
+        "Get a 10% discount on your next reservation by calling directly to 971 31 99 62 or writing an email to reservas@aguasdeibiza.com."
+      ]
+    }
+  ],
+
+  "restaurants": [
+    {
+      "id": 1,
+      "title": "The place where Ibiza gastronomic experience is better served.",
+      "thumbnail": "https://aguasdeibiza.com/wp-content/uploads/2019/09/Aguasdeibiza-2019-212-MAYMANTA-MEDIA-1200x1600.jpg",
+      "shortTitle": "Maymanta",
+      "description": "Promising Chef Omar Malpartida arrives in Ibiza with Maymanta, his new restaurant. It brings us a traveling kitchen with Peruvian DNA in a space where you will find a mixed cuisine, with dishes such as the causa, ceviche, oysters or Amazonian patacón, a cuisine based on its origins and unusual products of Peru.",
+      "shortDes": "Delicious combinations of culinary delights at a fancy rooftop restaurant",
+      "booking": [
+        { "titleBook": "Know more", "link": "#!" },
+        { "titleBook": "Book now", "link": "#!" }
+      ]
+    },
+    {
+      "id": 2,
+      "title": "Snacks, carpaccio, salads, fresh fish… healthy for your body, or healthy for your spirit? You pick up your menu and take it by the pool. It inspires you a siesta. Sunset comes to warn you: another truly promising menu is soon to come. Time to make the honors to the chef and his perfectly blended Mediterranean dishes. Restaurant open from 1pm to 4pm. Pool selection from 11am to 6pm.",
+      "thumbnail": "https://aguasdeibiza.com/wp-content/uploads/2019/10/aguas-de-ibiza-alabastro-5-ALTA-1200x1797.jpg",
+      "shortTitle": "Alabastro",
+      "description": "A gastronomical experience to be enjoyed both indoors and outdoors. Mouth-watering yet healthy dishes made with local ingredients. Wander around snacks, carpaccio, salads or fresh fish. In here, no rules apply to the proper amount of food. The choice is yours.",
+      "shortDes": "Taste the highlights of islander gastronomy all day long",
+      "booking": [
+        {
+          "titleBook": "Menu",
+          "link": "https://aguasdeibiza.com/wp-content/uploads/2024/08/ALABASTRO-RESTAURANTE-2024-ENG.pdf"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "A tribute to island specialties, with a modern twist can be enjoyed in this restaurant in Santa Eulalia. Avant-garde cuisine with traditional textures and tastes like no other luxury restaurants in the island.",
+      "thumbnail": "https://aguasdeibiza.com/wp-content/uploads/2019/09/Aguasdeibiza-2019-117-BAR-MEDIA-1200x1600.jpg",
+      "shortTitle": "Maymanta Pisco Bar",
+      "description": "Our cocktail bar is located on the hotel’s rooftop and open daily from 10.30 am to 1.30 am, with a design that merges styles from innovative such as pergolas boat rope to more local items such as Huguet ceramics floor. Our suggestion to end the day is to taste one of our delicious cocktails while enjoying the sea breeze. An extensive menu that leaves no one indifferent for cocktails and piscos as special as the La Linda or the Santa Sarita. In addition, we have a wine menu chosen by our sommelier, with the best references on the island.",
+      "shortDes": "The best views",
+      "booking": [
+        {
+          "titleBook": "Cocktail Menu",
+          "link": "https://aguasdeibiza.com/wp-content/uploads/2023/04/THE-ROOFTOP-BAR-MAYMANTA_2023.pdf"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "title": "Fruits, fish, local pastries, tomatoes, bread, olive oil, eggs, orange juice … Organic snacks to eat the new day. Because it’s going to be a good day.",
+      "thumbnail": "https://aguasdeibiza.com/wp-content/uploads/2019/01/aguasdeibiza-restaurantes-032-w1.jpg",
+      "shortTitle": "Oligo Madeinterranean",
+      "description": "Oligo, with an impeccable Mediterranean style, offers a help-yourself breakfast buffet. The restaurant is located on the ground floor of the hotel in an airy space filled with natural light plus a large terrace, in which to enjoy a wonderful bio and healthy breakfast. Apart from our buffet you can enjoy a wide variety of dishes a la carte or taste some of the homemade products of our pastry corner.",
+      "shortDes": "One of the restaurants in Santa Eulalia where local products are served",
+      "booking": [
+        {
+          "titleBook": "Oligo Menu",
+          "link": "https://aguasdeibiza.com/wp-content/uploads/2024/06/Carta-2024_WEB.pdf"
+        }
+      ]
+    }
+  ],
+  "theHotels": [
+    {
+      "id": 1,
+      "title": "Eco-luxury",
+      "thumbnail": "https://aguasdeibiza.com/wp-content/uploads/2019/09/Aguasdeibiza-2019-135-PISCINA-ALTA-1200x1600.jpg",
+      "description": [
+        "The new conceptual eco-luxury of a 5 star hotel in Ibiza. A dream made true on Santa Eulalia. A seashell for reconnecting with your energy. And to balance body and mind. In a perfect location for also exploring the wonders of Ibiza, like all the lovely turquoise beaches, or the stunning interior green landscapes.",
+        "This project has been recognized as the most environmentally friendly boutique hotel in this island. Thanks to using smart building automation and systems for saving water and energy. A 5 star hotel that advocates working with suppliers that share its eco-luxury philosophy."
+      ],
+      "shortDes": "Aguas the Ibiza"
+    },
+    {
+      "id": 2,
+      "title": "The advantages of staying eco-friendly",
+      "thumbnail": "https://aguasdeibiza.com/wp-content/uploads/2019/09/Aguasdeibiza-2019-173-TERRAZAS-ALTA-1200x1600.jpg",
+      "description": [
+        "Aguas de Ibiza brings an innovative an ambitious eco-friendly concept to your stay in a 5 star hotel. Expect the latest technology and photovoltaic rails, the use of smart building automation and systems for saving water and energy.",
+        "In addition to it, our company policy advocates working with environmentally savvy suppliers to offer sustainable stays in the island while enjoying the comforts of a real luxury boutique hotel."
+      ],
+      "shortDes": "For luxury-seekers"
+    }
+  ],
+  "images": [
+    "https://d321ocj5nbe62c.cloudfront.net/imageRepo/2/0/187/589/548/Deluxe_6_P.jpg",
+    "https://d321ocj5nbe62c.cloudfront.net/imageRepo/2/0/187/589/530/Deluxe_4_P.jpg",
+    "https://d321ocj5nbe62c.cloudfront.net/imageRepo/2/0/187/589/586/Deluxe_1_P.jpg"
+  ],
+  "featureList": [
+    {
+      "id": "feature1",
+      "title": "King bed"
+    },
+    {
+      "id": "feature2",
+      "title": "Coffee/Tea maker"
+    },
+    {
+      "id": "feature3",
+      "title": "Bathroom amenities"
+    },
+    {
+      "id": "feature4",
+      "title": "Hairdryer"
+    },
+    {
+      "id": "feature5",
+      "title": "TV"
+    },
+    {
+      "id": "feature6",
+      "title": "Slippers"
+    },
+    {
+      "id": "feature7",
+      "title": "Speaker phone"
+    },
+    {
+      "id": "feature8",
+      "title": "Television"
+    },
+    {
+      "id": "feature9",
+      "title": "Data port"
+    },
+    {
+      "id": "feature10",
+      "title": "Telephone"
+    },
+    {
+      "id": "feature11",
+      "title": "Minibar"
+    },
+    {
+      "id": "feature12",
+      "title": "Bathrobe"
+    },
+    {
+      "id": "feature13",
+      "title": "Safe"
+    },
+    {
+      "id": "feature14",
+      "title": "Wake-up calls"
+    },
+    {
+      "id": "feature15",
+      "title": "Maid service"
+    },
+    {
+      "id": "feature16",
+      "title": "Bathroom telephone"
+    },
+    {
+      "id": "feature17",
+      "title": "Bidet"
+    },
+    {
+      "id": "feature18",
+      "title": "Cable television"
+    },
+    {
+      "id": "feature19",
+      "title": "Smoke detectors"
+    },
+    {
+      "id": "feature20",
+      "title": "Sitting area"
+    },
+    {
+      "id": "feature21",
+      "title": "Twin bed"
+    }
+  ],
+  "categoryList": [
+    {
+      "id": "cate1",
+      "title": "Normal"
+    },
+    {
+      "id": "cate2",
+      "title": "Premium"
+    },
+    {
+      "id": "cate3",
+      "title": "Vip"
+    }
+  ],
+  "typeBedList": [
+    {
+      "id": "typeBed1",
+      "title": "1 King bed"
+    },
+    {
+      "id": "typeBed2",
+      "title": "2 Twin beds"
+    },
+    {
+      "id": "typeBed3",
+      "title": "2 King bed"
+    },
+    {
+      "id": "typeBed4",
+      "title": "3 Twin beds"
+    }
+  ],
+  "quickDesList": [
+    "Bathtub",
+    "Unlimited access to spa",
+    "Pool view",
+    "Pillow menu",
+    "Double beds",
+    "Terrace",
+    "It is located on 1st, 2nd and 3rd floor. Subject to availability",
+    "Coffee and tea point",
+    "It is located on 1st, 2nd, 3rd and 4th floor. Subject to availability.",
+    "Sea views",
+    "Shower and tub",
+    "Twin beds",
+    "Private terrace",
+    "Coffee & tea point",
+    "It is located on the 2nd, 3rd and 4th floor. Subject to availability."
+  ],
+
+  "shortFeaturesList": [
+    "Separate Shower",
+    "Air Conditioning",
+    "Desk or Workplace",
+    "Free Wifi",
+    "Bathtub",
+    "Safe in Room",
+    "King bed",
+    "Coffee/Tea maker",
+    "Bathroom amenities",
+    "Hairdryer",
+    "Speaker phone",
+    "Television"
+  ],
+
+  "featuresList": [
+    "King bed",
+    "Coffee/Tea maker",
+    "Bathroom amenities",
+    "Hairdryer",
+    "TV",
+    "Slippers",
+    "Speaker phone",
+    "Television",
+    "Data port",
+    "Telephone",
+    "Minibar",
+    "Bathrobe",
+    "Safe",
+    "Wake-up calls",
+    "Maid service",
+    "Bathroom telephone",
+    "Bidet",
+    "Cable television",
+    "Smoke detectors",
+    "Sitting area",
+    "Twin bed"
+  ],
+  "categoryRoomsList": ["Normal", "Premium", "Vip"],
+  "viewsList": ["Mountain", "Pool", "Sea"],
+  "typeBedsList": ["1 King bed", "2 Twin beds", "2 King bed", "3 Twin beds"]
+}
