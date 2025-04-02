@@ -17,7 +17,7 @@ app.use(cookieParser());
 
 app.use(
   cors({
-    origin: "https://luxury-hotel-git-day11-kaios-projects-1c6a688d.vercel.app",
+    origin: "*",
     credentials: true,
   })
 );
