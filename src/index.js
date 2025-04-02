@@ -19,6 +19,7 @@ app.use(
   cors({
     origin: [
       "*",
+      "http://localhost:5173/",
       "https://luxury-hotel-git-day11-kaios-projects-1c6a688d.vercel.app",
     ],
     credentials: true,

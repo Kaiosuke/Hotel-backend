@@ -144,9 +144,9 @@ const AuthController = {
   logout: async (req, res) => {
     try {
       const refreshToken = req.cookies.refreshToken;
-      if (!refreshToken) {
-        return handleError401(res, "You're not authenticated");
-      }
+      // if (!refreshToken) {
+      //   return handleError401(res, "You're not authenticated");
+      // }
 
       // const userId = await redis.keys("*");
       // for (let id of userId) {
