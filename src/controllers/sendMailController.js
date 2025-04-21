@@ -21,6 +21,8 @@ const sendInfo = {
   sendInfo: async (req, res) => {
     try {
       const { email, user } = req.body;
+      console.log(env.EMAIL_USER);
+
       const mailOptions = await transporter.sendMail({
         from: "Luxury Hotel <noreply@luxuryhotel.com>",
         to: email,
@@ -42,6 +44,34 @@ const sendInfo = {
       });
       return handleSuccess200(res, mailOptions);
     } catch (error) {
+      console.log(error);
+      return handleError500(res, error);
+    }
+  },
+};
+
+const sendMail = {
+  sendInfo: async (req, res) => {
+    try {
+      const { email } = req.body;
+      const mailOptions = await transporter.sendMail({
+        from: "NgaoDu VN <ngaoduVN@luxury.com>",
+        to: email,
+        subject: "Contact success",
+        text: `Thank For contact us`,
+        html: `
+        <div>
+          <p>Thank for contact us</p>
+          <p>If you have any questions, please do not hesitate to contact us at <a href="mailto:trongleele@gmail.com">trongleele@gmail.com</a></p>
+          <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3f2hGe2Kp7HJ8SveAuBRag3K5uiBaezAoDg&s" style="max-width: auto; height: 100px; border-radius: 8px; " />
+          </div>
+        </div>
+      `,
+      });
+
+      return handleSuccess200(res, mailOptions);
+    } catch (error) {
       return handleError500(res, error);
     }
   },
@@ -58,4 +88,4 @@ const sendResetPassword = async (email, token) => {
   await transporter.sendMail(mailOptions);
 };
 
-export { sendInfo, sendResetPassword };
+export { sendInfo, sendResetPassword, sendMail };
